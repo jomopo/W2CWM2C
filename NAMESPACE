@@ -1,0 +1,17 @@
+# Remove the previous line if you edit this file
+
+# Export all names
+exportPattern(".")
+
+# Import all packages listed as Imports or Depends
+import(
+  colorspace,
+  waveslim,
+  wavemulcor
+)
+
+  importFrom("grDevices", "dev.off", "jpeg", "pdf", "png", "postscript")
+  importFrom("graphics", "abline", "axis", "image", "layout", "matplot",
+             "par", "segments", "text")
+  importFrom("stats", "is.ts", "qnorm", "ts")
+  importFrom("utils", "combn")
